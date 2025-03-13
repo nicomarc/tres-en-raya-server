@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: tres-en-raya-server
+    runtime: node
+    buildCommand: npm install
+    startCommand: node server.js
+    env: node
