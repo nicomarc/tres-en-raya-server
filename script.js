@@ -38,7 +38,7 @@ nivel.addEventListener('change', () => {
 
 // Función para iniciar el modo en línea
 function iniciarModoEnLinea() {
-    socket = io('URL_DEL_SERVIDOR'); // Cambia esto por la URL de tu servidor
+    socket = io('https://tres-en-raya-server.onrender.com'); // Cambia esto por la URL de tu servidor
 
     socket.on('assignSymbol', (symbol) => {
         jugadorActual = symbol;
